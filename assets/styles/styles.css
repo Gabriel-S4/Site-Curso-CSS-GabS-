@@ -1,0 +1,88 @@
+html body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 100%;
+    background-color: black;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 605px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(43, 157, 206, 0.2) 50%, rgb(0, 0, 0, 0.1) 110%),
+    url('../images/banner.png');
+    border-bottom: 1px solid #33A8DB;
+    display: flex;
+}
+
+.black-circle-logo {
+    width: 268px;
+    height: 268px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0,0.2);
+    position: absolute;
+    top: 50px;
+    margin: 0px 120px 0px 120px;
+    z-index: 0;
+}
+
+.banner-content .Logo-dio {
+    margin: 10px 0px 15px 0px;
+    z-index: 1;
+}
+
+main {
+    text-align: center;
+    height: 1618px;
+    width: 1440px;
+    margin-top: 118px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+} 
+
+main #course-content {
+    margin: 0px 325px 92px 325px;
+}
+
+main #course-content .modules-list .module {
+    width: 411px;
+    background-color: #252525;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    padding: 15px 62px;
+    gap: 10px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    margin: 25px 108px 25px 108px;
+    text-align: center;
+    justify-content: center;
+}
+
+#transform-world p {
+    background-image: url(../images/woman-code.png);
+    padding: 110px 998px 110px 198px;
+    background-position: 0px -250px;
+    background-size: 1439px 960px;
+    background-repeat: no-repeat;
+    border-top: 1px solid #33A8DB;
+    border-right: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+}
+
+footer {
+    border-top: 1px solid #33A8DB;
+    padding-top: 58px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+
+}
