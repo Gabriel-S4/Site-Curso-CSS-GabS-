@@ -27,15 +27,17 @@ header{
     border: 1px solid transparent;
     border-radius: 50%;
     background-color: rgb(0, 0, 0,0.2);
+    z-index: 0;
     position: absolute;
     top: 50px;
     margin: 0px 120px 0px 120px;
     z-index: 0;
 }
 
-.banner-content .Logo-dio {
+.banner-content .logo-dio {
     margin: 10px 0px 15px 0px;
     z-index: 1;
+    position: relative;
 }
 
 main {
